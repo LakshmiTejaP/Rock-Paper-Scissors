@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  
+  <link rel="stylesheet" href="./Assets/css/style.css">
+
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="main-container">
+      <header class="index-container">
+       <h1>Rock &nbsp;Paper Scissors</h1>
+        <a role="button" href="#" class="play-btn">
+          PLAY<i class="fas fa-play"></i>
+        </a>
+     </header>
+    <div class="play-container">
+      <div class="main">
+         <div class="computer">
+           <h2>Computer : <span class="compScore">0</span></h2>
+           <img src="./Assets/images/rock.png" alt="computer's turn" class="computerImg hands">
+         </div>
+         <div class="result">
+           <h2 class="choose">Choose an option</h2>
+         </div>
+         <div class="player">
+           <h2>Player : <span class="userScore">0</span></h2>
+           <img src="./Assets/images/rockCopy.png" alt="player's turn" class="playerImg hands">
+         </div>
+      </div>
+      <div class="result-mobile">
+        <h2 class="choose">Choose an option</h2>
+      </div>
+       <div class="btns">
+         <a href="#" class="rock-btn play-btn">Rock</a>
+         <a href="#" class="paper-btn play-btn">Paper</a>
+         <a href="#" class="scissors-btn play-btn">Scissors</a>
+       </div>
+       <div class="exit">
+         <a href="#" class="exit-btn play-btn">Exit</a>
+       </div>
+     </div>
+     <div class="end-container">
+       <h2 class="score-title" id="score">Score Board</h2>
+       <h2>You &emsp;&emsp;&emsp;&ensp;:&nbsp; <span class="userScore">0</span></h2>
+       <h2>Computer &nbsp;:&nbsp; <span class="compScore">0</span></h2>
+      <a role="button" href="" class="playagain-btn play-btn">
+        PLAY AGAIN<i class="fas fa-play"></i>
+      </a>
+     </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
